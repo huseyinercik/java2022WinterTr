@@ -2,7 +2,7 @@ package day05_matematikselIslemler;
 
 import java.util.Scanner;
 
-public class C03_RakamlarToplaminiBulma {
+public class   C03_RakamlarToplaminiBulma {
 
 
     public static void main(String[] args) {

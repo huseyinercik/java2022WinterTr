@@ -1,8 +1,11 @@
 package day02_variables;
 
+import javax.swing.*;
+
 public class C03_Variables {
 
     public static void main(String[] args) {
+
 
         String ogrenciIsmi="Mehmet";
         ogrenciIsmi="Furkan";

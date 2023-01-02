@@ -31,6 +31,16 @@ public class C03_Overloading {
         ikiSayiToplami(sayi5, sayi6);
 
         //
+        //bir float ile bir short taplamini yazdiran bir method olusturali
+
+        float sayi7=10.5f;
+        short sayi8=5;
+        ikiSayiToplami(sayi7,sayi8);
+
+        byte sayi9=8;
+        int sayi10=521;
+        double sayi11=2518.26;
+        ikiSayiToplami(sayi9,sayi10,sayi11);
 
 
     }
@@ -48,6 +58,13 @@ public class C03_Overloading {
     private static void ikiSayiToplami(int sayi1, int sayi2) {
 
         System.out.println("iki integer toplami: " + (sayi1 + sayi2));
+    }
+    private static void ikiSayiToplami(float x,short y){
+        System.out.println("Bir float ve bir short toplami: " + (x + y));
+    }
+
+   private static void ikiSayiToplami(byte x,int y,double z){
+        System.out.println("Bir byte bir integer ve bir double in toplami: "+(x+y+z));
     }
 
 

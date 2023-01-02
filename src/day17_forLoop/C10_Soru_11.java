@@ -2,7 +2,7 @@ package day17_forLoop;
 
 import java.util.Scanner;
 
-public class C10_Soru_11 {
+public class  C10_Soru_11 {
     public static void main(String[] args) {
         //Soru 11 ) Interview Question
         //Kullanicidan 10’dan kucuk bir tamsayi isteyin ve

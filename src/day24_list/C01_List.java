@@ -29,6 +29,10 @@ public class C01_List {
         sayilarList.add(0,7);//[7,5,3]
         sayilarList.add(2,7);//[7,5,7,3]
         System.out.println(sayilarList);
+       //sayilarList.removeAll(sayilarList);
+       // System.out.println(sayilarList);
+       // System.out.println(sayilarList.removeAll(sayilarList));
+        //System.out.println(sayilarList.isEmpty());
 
     }
 }
